@@ -1,0 +1,12 @@
+import math
+
+text_root=int(input("Enter your spaces number :"))
+v= math.pi
+if text_root>15:
+	print("There are too many , You need to short! ")
+elif text_root<=15:
+	text_root=text_root+2
+	v=str(v)
+	d,s=(v[2:text_root],(v[0:2]))
+	print(d+s)
+	v=float(v)
